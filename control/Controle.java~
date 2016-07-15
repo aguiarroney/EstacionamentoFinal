@@ -45,7 +45,9 @@ public class Controle {
                         switch (op2) {
                             case 1:
                                 // ESTACIONAMENTO
-                                
+                                //PASSAR OS PARAMETROS
+                                //-----------> COLOQUEI UNS VALORES AQUI SÓ PRA TESTE
+
                                 int op3 = menu.menuEstacionamento(filialAux.getPrecoHoraCarro(), filialAux.getPrecoHoraMoto(), filialAux.getPrecoPernoiteCarro(), filialAux.getPrecoPernoiteMoto());
                                 switch (op3) {
                                     case 1:
